@@ -40,7 +40,7 @@
 
                         <ul class="ml-4 leading-normal">
                             <li><a href="https://laracasts.com/series/php-for-beginners" class="no-underline hover:underline text-sm font-normal text-teal-900">Laracasts Video Series "The PHP Practitioner"</a></li>
-                            <li><a href="https://laravel.com/docs" class="no-underline hover:underline text-sm font-normal text-teal-900">PHP Pandas Online Book</a></li>
+                            <li><a href="https://daylerees.com/php-pandas/" class="no-underline hover:underline text-sm font-normal text-teal-900">PHP Pandas Online Book</a></li>
                         </ul>
                     </li>
                     <li class="mb-4">
