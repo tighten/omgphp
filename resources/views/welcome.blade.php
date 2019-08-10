@@ -1,90 +1,75 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ app()->getLocale() }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>OMG PHP</title>
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #222;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+    <!-- Styles -->
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+</head>
+<body class="bg-gray-100 h-screen antialiased leading-none">
+<div class="flex flex-col">
+    @if(Route::has('login'))
+        <div class="absolute top-0 right-0 mt-4 mr-4">
+            @auth
+                <a href="{{ url('/home') }}" class="no-underline hover:underline text-sm font-normal text-teal-900 uppercase">{{ __('Home') }}</a>
+            @else
+                <a href="{{ route('login') }}" class="no-underline hover:underline text-sm font-normal text-teal-900 uppercase pr-6">{{ __('Login') }}</a>
+                @if (Route::has('register'))
+                    <a href="{{ route('register') }}" class="no-underline hover:underline text-sm font-normal text-teal-900 uppercase">{{ __('Register') }}</a>
+                @endif
+            @endauth
+        </div>
+    @endif
 
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="flex flex-col justify-around h-full">
+            <div>
+                <h1 class="text-gray-600 text-center font-light tracking-wider text-5xl mb-6">
                     OMG 😲 PHP
-                </div>
-                (make PHP better, easier, healthier, safer, etc.)
+                </h1>
+                <ul>
+                    <li class="mb-4">
+                        <div class="font-bold mb-2">Learn PHP for free</div>
+
+                        <ul class="ml-4 leading-normal">
+                            <li><a href="https://laracasts.com/series/php-for-beginners" class="no-underline hover:underline text-sm font-normal text-teal-900">Laracasts Video Series "The PHP Practitioner"</a></li>
+                            <li><a href="https://laravel.com/docs" class="no-underline hover:underline text-sm font-normal text-teal-900">PHP Pandas Online Book</a></li>
+                        </ul>
+                    </li>
+                    <li class="mb-4">
+                        <div class="font-bold mb-2">Ask questions about PHP</div>
+
+                        <ul class="ml-4 leading-normal">
+                            <li>?</li>
+                        </ul>
+                    </li>
+                    <li class="mb-4">
+                        <div class="font-bold mb-2">Welcoming PHP organizations</div>
+
+                        <ul class="ml-4 leading-normal">
+                            <li>OSMI</li>
+                            <li>PHP Women</li>
+                            <li>?</li>
+                        </ul>
+                    </li>
+                    <li class="mb-4">
+                        <div class="font-bold mb-2">The Real World</div>
+
+                        <ul class="ml-4 leading-normal">
+                            <li><a href="https://meetup.com/topics/php" class="no-underline hover:underline text-sm font-normal text-teal-900">Find a meet-up</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
-    </body>
+    </div>
+</div>
+</body>
 </html>
