@@ -54,8 +54,7 @@
                         <div class="font-bold mb-2">Welcoming PHP organizations</div>
 
                         <ul class="ml-4 leading-normal">
-                            <li>OSMI</li>
-                            <li>PHP Women</li>
+                            <li><a href="https://osmihelp.org/" class="no-underline hover:underline text-sm font-normal text-teal-900">OSMI</a></li>
                             <li>?</li>
                         </ul>
                     </li>
