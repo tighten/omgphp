@@ -35,9 +35,9 @@
                     OMG 😲 PHP
                 </h1>
                 <div class="mb-8 leading-normal">
-                    <p><strong>What's this?</strong><br>A placeholder for one site--or maybe two separate sites--which, once well-planned, will have real designs and marketing and stuff. By Matt Stauffer of Tighten, with the goals to:<br><br>
-                    A) welcome newcomers into PHP in a healthy and friendly and easy-to-learn and safe way, and<br>
-                    B) combat the misperception that PHP is dead and shouldn't be learned or used for modern projects.</p>
+                    <p><strong>What's this?</strong><br>A placeholder for a site which, once well-planned, will have real designs and marketing and stuff. By Matt Stauffer of Tighten, with the goals to
+                    <strong>welcome newcomers into PHP in a healthy and friendly and easy-to-learn and safe way</strong>.</p>
+                    <p class="mt-4">See sister site <a href="https://whyphp.dev/" class="text-teal-900 hover:underline">WhyPHP.dev</a> to consider why developers, bootcamps, and companies should consider PHP today.</p>
                 </div>
                 <ul>
                     <li class="mb-4">
@@ -70,19 +70,9 @@
                             <li><a href="https://meetup.com/topics/php" class="no-underline hover:underline font-normal text-teal-900">Find a meet-up</a></li>
                         </ul>
                     </li>
-                    <li class="mb-4">
-                        <div class="font-bold mb-2 text-lg">Isn't PHP dead?</div>
-
-                        <ul class="ml-4 leading-normal list-disc list-inside">
-                            <li><a href="https://isrubydead.com/" class="no-underline hover:underline font-normal text-teal-900">Is <strike>Ruby</strike> PHP dead?</a></li>
-                            <li><a href="https://www.mathieu-ferment.com/viva-php" class="no-underline hover:underline font-normal text-teal-900">Viva PHP</li>
-                            <li><a href="https://stitcher.io/blog/php-in-2019" class="no-underline hover:underline font-normal text-teal-900">PHP in 2019</a></li>
-                            <li><a href="https://stitcher.io/blog/php-in-2019" class="no-underline hover:underline font-normal text-teal-900">This tweet and its replies: <a href="https://twitter.com/stauffermatt/status/1163794261906771968" class="text-sm">https://twitter.com/stauffermatt/status/1163794261906771968</a></li>
-                        </ul>
-                    </li>
                 </ul>
             </div>
-            <div><a href="https://github.com/tightenco/omgphp">Source on GitHub</a></div>
+            <div><a href="https://github.com/tightenco/omgphp" class="text-teal-900 hover:underline">Source on GitHub</a></div>
         </div>
 
     </div>
