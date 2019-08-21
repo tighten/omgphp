@@ -28,12 +28,17 @@
         </div>
     @endif
 
-    <div class="min-h-screen flex items-center justify-center">
+    <div class="min-h-screen flex items-center justify-center container m-auto p-4 max-w-4xl">
         <div class="flex flex-col justify-around h-full">
             <div>
                 <h1 class="text-gray-900 text-center font-bold text-5xl mb-6">
                     OMG 😲 PHP
                 </h1>
+                <div class="mb-8 leading-normal">
+                    <p><strong>What's this?</strong><br>A placeholder for one site--or maybe two separate sites--which, once well-planned, will have real designs and marketing and stuff. By Matt Stauffer of Tighten, with the goals to:<br><br>
+                    A) welcome newcomers into PHP in a healthy and friendly and easy-to-learn and safe way, and<br>
+                    B) combat the misperception that PHP is dead and shouldn't be learned or used for modern projects.</p>
+                </div>
                 <ul>
                     <li class="mb-4">
                         <div class="font-bold mb-2 text-lg">Learn PHP for free</div>
@@ -77,7 +82,9 @@
                     </li>
                 </ul>
             </div>
+            <div><a href="https://github.com/tightenco/omgphp">Source on GitHub</a></div>
         </div>
+
     </div>
 </div>
 </body>
