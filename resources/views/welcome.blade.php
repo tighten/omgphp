@@ -61,6 +61,13 @@
                         </ul>
                     </li>
                     <li class="mb-8">
+                        <div class="font-bold mb-2 text-lg">Intermediate learning resources</div>
+
+                        <ul class="ml-8 leading-normal list-disc">
+                            <li><a href="https://phptherightway.com/" class="no-underline hover:underline font-normal text-blue-700">PHP the Right Way</a></li>
+                        </ul>
+                    </li>
+                    <li class="mb-8">
                         <div class="font-bold mb-2 text-lg">Ask questions about PHP</div>
 
                         <ul class="ml-8 leading-normal list-disc">
