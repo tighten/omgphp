@@ -122,8 +122,8 @@
                                 Other tools:
                                 <ul class="ml-8 leading-normal list-disc">
                                     <li><a href="https://magento.com/" class="no-underline hover:underline font-normal text-blue-700">Magento</a> - build e-commerce web sites</li>
-                                    <li><a href="https://en.wikipedia.org/wiki/MediaWiki" class="no-underline hover:underline font-normal text-blue-700">MediaWiki</a> - build wikis; same tool that powers Wikipedia</li>D
-                                    <li><a href="https://github.com/flarum/flarum" class="no-underline hover:underline font-normal text-blue-700">Flarum</a> - Build forums</li>
+                                    <li><a href="https://en.wikipedia.org/wiki/MediaWiki" class="no-underline hover:underline font-normal text-blue-700">MediaWiki</a> - build wikis; same tool that powers Wikipedia</li>
+                                    <li><a href="https://flarum.org/" class="no-underline hover:underline font-normal text-blue-700">Flarum</a> - Build forums</li>
                                 </ul>
                             </li>
                         </ul>
