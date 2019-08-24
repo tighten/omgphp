@@ -99,30 +99,30 @@
                             <li>
                                 CMSes (Content Management Systems):
                                 <ul class="ml-8 leading-normal list-disc">
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">WordPress</a></li>
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">Joomla</a></li>
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">Drupal</a></li>
+                                    <li><a href="https://wordpress.org/" class="no-underline hover:underline font-normal text-blue-700">WordPress</a></li>
+                                    <li><a href="https://www.joomla.org/" class="no-underline hover:underline font-normal text-blue-700">Joomla</a></li>
+                                    <li><a href="https://www.drupal.org/" class="no-underline hover:underline font-normal text-blue-700">Drupal</a></li>
                                     <li>Others: CraftCMS, Statamic, OctoberCMS, ModX, Contao, Concrete5, SilverStripe, ExpressionEngine</li>
                                 </ul>
                             </li>
                             <li>
                                 Frameworks (ordered by popularity):
                                 <ul class="ml-8 leading-normal list-disc">
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">Laravel</a></li>
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">Symfony</a></li>
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">CodeIgniter</a></li>
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">Yii</a></li>
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">Slim</a></li>
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">Phalcon</a></li>
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">CakePHP</a></li>
-                                    <li><a href="" class="no-underline hover:underline font-normal text-blue-700">Zend</a></li>
+                                    <li><a href="https://laravel.com/" class="no-underline hover:underline font-normal text-blue-700">Laravel</a></li>
+                                    <li><a href="https://symfony.com/" class="no-underline hover:underline font-normal text-blue-700">Symfony</a></li>
+                                    <li><a href="https://codeigniter.com/" class="no-underline hover:underline font-normal text-blue-700">CodeIgniter</a></li>
+                                    <li><a href="https://www.yiiframework.com/" class="no-underline hover:underline font-normal text-blue-700">Yii</a></li>
+                                    <li><a href="https://www.slimframework.com/" class="no-underline hover:underline font-normal text-blue-700">Slim</a></li>
+                                    <li><a href="https://phalconphp.com/" class="no-underline hover:underline font-normal text-blue-700">Phalcon</a></li>
+                                    <li><a href="https://cakephp.org/" class="no-underline hover:underline font-normal text-blue-700">CakePHP</a></li>
+                                    <li><a href="https://framework.zend.com/" class="no-underline hover:underline font-normal text-blue-700">Zend</a></li>
                                 </ul>
                             </li>
                             <li>
                                 Other tools:
                                 <ul class="ml-8 leading-normal list-disc">
                                     <li><a href="https://magento.com/" class="no-underline hover:underline font-normal text-blue-700">Magento</a> - build e-commerce web sites</li>
-                                    <li><a href="https://en.wikipedia.org/wiki/MediaWiki" class="no-underline hover:underline font-normal text-blue-700">MediaWiki</a> - build wikis; same tool that powers Wikipedia</li>
+                                    <li><a href="https://en.wikipedia.org/wiki/MediaWiki" class="no-underline hover:underline font-normal text-blue-700">MediaWiki</a> - build wikis; same tool that powers Wikipedia</li>D
                                     <li><a href="https://github.com/flarum/flarum" class="no-underline hover:underline font-normal text-blue-700">Flarum</a> - Build forums</li>
                                 </ul>
                             </li>
