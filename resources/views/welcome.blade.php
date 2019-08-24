@@ -31,48 +31,106 @@
     <div class="min-h-screen flex items-center justify-center container m-auto p-4 max-w-4xl">
         <div class="flex flex-col justify-around h-full">
             <div>
-                <h1 class="text-gray-900 text-center font-bold text-5xl mb-6">
+                <h1 class="text-gray-900 text-center font-bold text-5xl mb-4">
                     OMG 😲 PHP
                 </h1>
+                <p class="mb-10 text-center text-2xl">Resources for becoming a PHP developer.</p>
+
                 <div class="mb-8 leading-normal">
                     <p><strong>What's this?</strong><br>A placeholder for a site which, once well-planned, will have real designs and marketing and stuff. By Matt Stauffer of Tighten, with the goals to
                     <strong>welcome newcomers into PHP in a healthy and friendly and easy-to-learn and safe way</strong>.</p>
                     <p class="mt-4">See sister site <a href="https://whyphp.dev/" class="text-teal-900 hover:underline">WhyPHP.dev</a> to consider why developers, bootcamps, and companies should consider PHP today.</p>
                 </div>
                 <ul>
-                    <li class="mb-4">
+                    <li class="mb-8">
                         <div class="font-bold mb-2 text-lg">Learn PHP for free</div>
 
-                        <ul class="ml-4 leading-normal list-disc list-inside">
+                        <ul class="ml-8 leading-normal list-disc">
                             <li><a href="https://laracasts.com/series/php-for-beginners" class="no-underline hover:underline font-normal text-teal-900">Laracasts Video Series "The PHP Practitioner"</a></li>
                             <li><a href="https://daylerees.com/php-pandas/" class="no-underline hover:underline font-normal text-teal-900">PHP Pandas Online Book</a></li>
+                            <li><a href="https://www.codecademy.com/learn/learn-php" class="no-underline hover:underline font-normal text-teal-900">Learn PHP at Codecademy</a></li>
                         </ul>
                     </li>
-                    <li class="mb-4">
+                    <li class="mb-8">
+                        <div class="font-bold mb-2 text-lg">Learn PHP (paid, recommended)</div>
+
+                        <ul class="ml-8 leading-normal list-disc">
+                            <li><a href="https://www.lynda.com/PHP-tutorials/Introducing-PHP/418256-2.html" class="no-underline hover:underline font-normal text-teal-900">Learn PHP at Lynda</a></li>
+                            <li><a href="https://teamtreehouse.com/tracks/beginning-php" class="no-underline hover:underline font-normal text-teal-900">Learn PHP at Treehouse</a></li>
+                        </ul>
+                    </li>
+                    <li class="mb-8">
                         <div class="font-bold mb-2 text-lg">Ask questions about PHP</div>
 
-                        <ul class="ml-4 leading-normal list-disc list-inside">
-                            <li>?</li>
+                        <ul class="ml-8 leading-normal list-disc">
+                            <li><a href="https://stackoverflow.com/questions/tagged/php" class="no-underline hover:underline font-normal text-teal-900">StackOverflow PHP</a></li>
                         </ul>
                     </li>
-                    <li class="mb-4">
+                    <li class="mb-8">
                         <div class="font-bold mb-2 text-lg">Welcoming PHP organizations</div>
 
-                        <ul class="ml-4 leading-normal list-disc list-inside">
+                        <ul class="ml-8 leading-normal list-disc">
                             <li><a href="https://osmihelp.org/" class="no-underline hover:underline font-normal text-teal-900">OSMI</a></li>
                             <li>?</li>
                         </ul>
                     </li>
-                    <li class="mb-4">
+                    <li class="mb-8">
                         <div class="font-bold mb-2 text-lg">The Real World</div>
 
-                        <ul class="ml-4 leading-normal list-disc list-inside">
+                        <ul class="ml-8 leading-normal list-disc">
                             <li><a href="https://meetup.com/topics/php" class="no-underline hover:underline font-normal text-teal-900">Find a meet-up</a></li>
+                        </ul>
+                    </li>
+                    <li class="mb-8">
+                        <div class="font-bold mb-2 text-lg">Places to avoid</div>
+                        <p class="leading-normal mb-4">PHP has been around a long enough time that, if you google "PHP", you're going to find a lot of resources that aren't great for modern PHP developers; sometimes because the code is old, but sometimes because the people aren't very friendly. These are a few places that might not be particularly helpful or welcoming for newcomers.</p>
+
+                        <ul class="ml-8 leading-normal list-disc">
+                            <li>r/php on Reddit (and many similar places like r/laravel): There are many wonderful people here but there are also many jerks. Stay away from jerks.</li>
+                            <li>w3Schools: They are known for giving bad and outdated information.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-8">
+                        <div class="font-bold mb-2 text-lg">Frameworks and CMSes</div>
+                        <p class="leading-normal mb-4">If you're learning PHP, there's a good chance there's a specific goal you have in mind: to join a team that works with a given tool, or just to learn the language that powers the majority of the Internet. But it's very unlikely that you'll just write PHP today. You'll almost definitely work with a framework or a CMS. Here are a few of the major players:</p>
+
+                        <ul class="ml-8 leading-normal list-disc">
+                            <li>
+                                CMSes (Content Management Systems):
+                                <ul class="ml-8 leading-normal list-disc">
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">WordPress</a></li>
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">Joomla</a></li>
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">Drupal</a></li>
+                                    <li>Others: CraftCMS, Statamic, OctoberCMS, ModX, Contao, Concrete5, SilverStripe, ExpressionEngine</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Frameworks (ordered by popularity):
+                                <ul class="ml-8 leading-normal list-disc">
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">Laravel</a></li>
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">Symfony</a></li>
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">CodeIgniter</a></li>
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">Yii</a></li>
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">Slim</a></li>
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">Phalcon</a></li>
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">CakePHP</a></li>
+                                    <li><a href="" class="no-underline hover:underline font-normal text-teal-900">Zend</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                Other tools:
+                                <ul class="ml-8 leading-normal list-disc">
+                                    <li><a href="https://magento.com/" class="no-underline hover:underline font-normal text-teal-900">Magento</a> - build e-commerce web sites</li>
+                                    <li><a href="https://en.wikipedia.org/wiki/MediaWiki" class="no-underline hover:underline font-normal text-teal-900">MediaWiki</a> - build wikis; same tool that powers Wikipedia</li>
+                                    <li><a href="https://github.com/flarum/flarum" class="no-underline hover:underline font-normal text-teal-900">Flarum</a> - Build forums</li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                 </ul>
             </div>
-            <div><a href="https://github.com/tightenco/omgphp" class="text-teal-900 hover:underline">Source on GitHub</a></div>
+
+            <div><a href="https://github.com/tightenco/omgphp" class="text-teal-900 hover:underline mt-8">Source on GitHub</a></div>
         </div>
 
     </div>
