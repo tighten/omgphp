@@ -50,6 +50,7 @@
                             <li><a href="https://laracasts.com/series/php-for-beginners" class="no-underline hover:underline font-normal text-blue-700">Laracasts Video Series "The PHP Practitioner"</a></li>
                             <li><a href="https://daylerees.com/php-pandas/" class="no-underline hover:underline font-normal text-blue-700">PHP Pandas Online Book</a></li>
                             <li><a href="https://www.codecademy.com/learn/learn-php" class="no-underline hover:underline font-normal text-blue-700">Learn PHP at Codecademy</a></li>
+                            <li><a href="https://exercism.io/tracks/php" class="no-underline hover:underline font-normal text-blue-700">Learn PHP at Exercism</a></li>
                         </ul>
                     </li>
                     <li class="mb-8">
