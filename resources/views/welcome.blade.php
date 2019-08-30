@@ -58,6 +58,7 @@
                         <ul class="ml-8 leading-normal list-disc">
                             <li><a href="https://www.lynda.com/PHP-tutorials/Introducing-PHP/418256-2.html" class="no-underline hover:underline font-normal text-blue-700">Learn PHP at Lynda</a></li>
                             <li><a href="https://teamtreehouse.com/tracks/beginning-php" class="no-underline hover:underline font-normal text-blue-700">Learn PHP at Treehouse</a></li>
+                            <li><a href="https://www.amazon.com/Beginning-PHP-MySQL-Novice-Professional/dp/1430260432" class="no-underline hover:underline font-normal text-blue-700">Beginning PHP and MySQL</a></li>
                         </ul>
                     </li>
                     <li class="mb-8">
